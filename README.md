@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Streem Web Code Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Streem's Web Code challenge. We have made a react application for you to start with. This challenge will have you create a grid system to display grid items well.
+
+If you finish this challenge, great! If you don't, take notes because we want to hear your thought process. 
+
+
+## Challenge 
+
+In this challenge, you need to display `n` divs in a grid with the following acceptance criteria:
+
+* There can be `n` items in the grid.
+* Each grid item must maintain a 16/9 aspect ratio.
+* The grid should reorganize and resize items into the *best* amount of columns and rows. *Best* is defined as the largest possible item is displayed and each item is the same size.
+* [The only code you can modify are the contents of **`getGridItemDimensions`** in the file `Result.tsx`. This function must return the `Dimensions` for a grid item](https://github.com/streem/web-code-challenge/blob/master/src/components/Result.tsx#L125-L146)
+
+
+**🔗 [The visual acceptance criteria can be viewed clicking this link](https://drive.google.com/file/d/1MltinLjiA3ga7hQZTUmaDCFRZsGrZjYb/view?usp=sharing)**
+
+While creating your solution, please follow these rules: 
+* No new dependencies please
+* You have 1 week to complete this challenge in your own time.
+* Please only spend up to 2~3 hours on this maximum. 
+
+
+## Instructions
+Please follow the instructions below to complete this code challenge: 
+
+1. Clone this repo.
+2. Create a new branch from `master` for your work.
+3. [The only code you can modify are the contents of **`getGridItemDimensions`** in `Result.tsx`.](https://github.com/streem/web-code-challenge/blob/master/src/components/Result.tsx#L125-L146)
+4. Upload your work to a **private repository** on your github account. 
+5. Invite **@nonsie**, **@Fallenstedt**  **@toddlemoine** and **@rbouissey** as collaborators. [Use these instructions from github incase you get stuck](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+6. Tell your contact that you have completed the code challenge.
 
 ## Available Scripts
 
@@ -19,28 +50,3 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

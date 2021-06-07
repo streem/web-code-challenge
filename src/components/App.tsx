@@ -9,7 +9,7 @@ function App() {
   const renderChildren = useMemo(() => {
     const elementsToRender = []
     for (let i = 0; i < amount; i++) {
-      elementsToRender.push(<Box key={i.toString() + Math.random()}/>)
+      elementsToRender.push(<Box key={i.toString()} index={i}/>)
     }
     return elementsToRender
   }, [amount])
@@ -27,7 +27,9 @@ function App() {
         }}
       />
 
-      <Result>
+      <Result
+        aspectRatio={16/9}
+        minimumGap={5}>
         {renderChildren}
       </Result>
     </div>
