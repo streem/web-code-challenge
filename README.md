@@ -33,7 +33,7 @@ Please follow the instructions below to complete this code challenge:
 1. Clone this repo.
 2. Create a new branch from `master` for your work.
 3. Push your work to a **private repository** on your GitHub account. 
-4. Invite **@nonsie**, **@Fallenstedt**  **@toddlemoine** and **@rbouissey** as collaborators. [GitHubs's instructions for how to do this](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+4. Invite **@nonsie**, **@Fallenstedt**  **@toddlemoine** and **@rbouissey** as collaborators. [Here are GitHub's instructions for how to do this](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 5. Let us know! Tell your contact that you have completed the code challenge.
 
 ## Available Scripts
